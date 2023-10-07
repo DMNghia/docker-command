@@ -1,1 +1,1 @@
-docker run -d --name kafka_9093 -p 9093:9093 --link zookeeper:zookeeper -e KAFKA_ADVERTISED_HOST_NAME=localhost -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_ADVERTISED_PORT=9093 bitnami/kafka
+docker run -d --hostname localhost --name kafka_9093 -p 9093:9093 --link zookeeper:zookeeper -e KAFKA_ADVERTISED_HOST_NAME=localhost -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_ADVERTISED_PORT=9093 bitnami/kafka
