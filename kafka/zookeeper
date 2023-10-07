@@ -1,0 +1,1 @@
+docker run --name zookeeper_docker -p 2182:2181 -d zookeeper
