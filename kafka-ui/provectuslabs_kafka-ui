@@ -1,1 +1,1 @@
-docker run -it -p 12041:8080 -e DYNAMIC_CONFIG_ENABLED=true provectuslabs/kafka-ui
+docker run -p 12041:8080 -e DYNAMIC_CONFIG_ENABLED=true provectuslabs/kafka-ui
